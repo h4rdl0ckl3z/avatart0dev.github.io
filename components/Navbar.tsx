@@ -3,7 +3,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import SwitchTheme from './SwitchTheme'
 
 const navigation = [
-    { name: 'Home', href: '/', current: false },
+    // { name: 'Home', href: '/', current: false },
     { name: 'About', href: '#about', current: false },
     { name: 'Work', href: '#work', current: false },
     { name: 'Projects', href: '#projects', current: false },
