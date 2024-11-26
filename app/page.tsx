@@ -7,7 +7,7 @@ import { SectionWork } from "@/components/contents/SectionWork";
 
 export default function Home() {
   return (
-    <main>
+    <main className="py-10">
       <SectionWelCome />
       <SectionAbout />
       <SectionWork />
