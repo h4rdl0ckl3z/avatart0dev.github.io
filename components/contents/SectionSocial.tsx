@@ -1,10 +1,5 @@
 import Image from 'next/image';
 
-import fb from '../../public/fb.svg';
-import ig from '../../public/ig.svg';
-import github from '../../public/github.svg';
-import youtube from '../../public/youtube.svg';
-
 export const SectionSocial = () => {
     return (
         <section id="social" className="py-1">
