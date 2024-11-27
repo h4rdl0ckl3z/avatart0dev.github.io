@@ -5,7 +5,7 @@ import { SectionSocial } from "@/components/contents/SectionSocial";
 import { SectionWelCome } from "@/components/contents/SectionWelCome";
 import { SectionWork } from "@/components/contents/SectionWork";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main className="py-10">
       <SectionWelCome />
