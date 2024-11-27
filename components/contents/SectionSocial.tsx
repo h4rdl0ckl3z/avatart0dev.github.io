@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export const SectionSocial = () => {
     return (
         <section id="social" className="py-1">
