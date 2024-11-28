@@ -1,13 +1,5 @@
+import { Project } from '@/app/project/projectModel';
 import { promises as fs } from 'fs';
-
-interface Project {
-    title: string;
-    img: string;
-    description: string;
-    date: string;
-    link: string;
-    content: string;
-}
 
 export const SectionProject = async () => {
     const file = await fs.readFile(process.cwd() + '/app/project/data.json', 'utf8');
@@ -23,7 +15,7 @@ export const SectionProject = async () => {
                             <img src={project.img} width={200} height={300} alt={`Screenshot of ${project.title}`} className="mb-4 rounded" />
                             <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                             <p className="mb-4">{project.description}</p>
-                            {project.link && <a href={project.link} target='_blank' className="text-blue-500 hover:underline">View Project</a>}
+                            {project.link && <a href={`/project/${index}`} className="text-blue-500 hover:underline">View Project</a>}
                         </div>
                     ))}
                 </div>
