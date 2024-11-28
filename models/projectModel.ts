@@ -5,5 +5,5 @@ export interface Project {
     description: string;
     date: string;
     link: string;
-    content: string;
+    content: Promise<[]>;
 }

@@ -4,10 +4,13 @@
             "id": 0,
             "title": "nextjs-portfolio",
             "img": "https://avatars.githubusercontent.com/u/54482333?s=400&u=c430a54568014a47938386f3aa960d7cb97f9125&v=4",
-            "description": "",
+            "description": "portfolio",
             "date": "",
             "link": "https://github.com/h4rdl0ckl3z/portfolio",
-            "content": ""
+            "content": [
+                "test",
+                "test"
+            ]
         },
         {
             "id": 1,
@@ -16,7 +19,10 @@
             "description": "",
             "date": "",
             "link": "",
-            "content": ""
+            "content": [
+                "1",
+                "1"
+            ]
         }
     ]
 }

@@ -1,4 +1,4 @@
-import { Project } from '@/app/project/projectModel';
+import { Project } from '@/models/projectModel';
 import { promises as fs } from 'fs';
 
 export const SectionProject = async () => {
