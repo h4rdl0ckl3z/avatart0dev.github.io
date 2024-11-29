@@ -16,11 +16,11 @@ export const SectionWork = () => {
     const bg = theme === 'light' ? 'bg-black' : 'bg-white';
 
     const events = [
-        { year: '2024', details: ['Lorem ipsum dolor sit amet.', 'Consectetur adipiscing elit.', 'Sed do eiusmod tempor incididunt.', 'Ut labore et dolore magna aliqua.'] },
-        { year: '2023', details: ['Lorem ipsum dolor sit amet.', 'Consectetur adipiscing elit.', 'Sed do eiusmod tempor incididunt.', 'Ut labore et dolore magna aliqua.', 'Ut enim ad minim veniam.'] }
+        { year: 'Student Project | 2023', title: 'Development of A Management System For Teaching Materials', description: 'Management durable articles of Science and Technology faculty, add the durable articles to the system, lending and return, fixing, sale and tracking', details: ['Design the database (MySQL)', 'Coding in PHP, JavaScript, J-Query, AJAX', 'Manual Testing'] },
+        { year: 'Application Developer | 2022', title: 'STS System & Development Co, Ltd', description: '', details: ['Programming the Auto e-GP (Thai Government Procurement)', 'Convert Database (Access to MariaDB)', 'IT-Support (Network and Server, Install and Update OS, Hardware)', 'Customer-Support', 'Assistance (Developer, Design UX/UI for the website, Web service-Planning)'] }
     ];
 
-    const EventItem = ({ year, details }: { year: string, details: string[] }) => (
+    const EventItem = ({ year, title, description, details }: { year: string, title: string, description: string, details: string[] }) => (
         <div className="flex items-center mb-8">
             <div className="w-1/2 text-right pr-8">
                 <p className="text-lg">{year}</p>
@@ -28,8 +28,10 @@ export const SectionWork = () => {
             <div className="relative w-1/2">
                 <div className={classNames('absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 rounded-full', isClient ? bg : 'bg-transparent')}></div>
                 <div className="ml-8">
+                    <p className="mb-4 font-bold">{title}</p>
+                    <p className="mb-4">{description}</p>
                     {details.map((detail, index) => (
-                        <p key={index} className="mb-4">{detail}</p>
+                        <p key={index} className="mb-4">· {detail}</p>
                     ))}
                 </div>
             </div>
@@ -44,7 +46,7 @@ export const SectionWork = () => {
             <div className="relative py-4 pr-4">
                 <div className={classNames('absolute left-1/2 transform -translate-x-1/2 h-full border-l-2', isClient ? border : 'border-transparent')}></div>
                 {events.map((event, index) => (
-                    <EventItem key={index} year={event.year} details={event.details} />
+                    <EventItem key={index} year={event.year} title={event.title} description={event.description} details={event.details} />
                 ))}
             </div>
         </section>
