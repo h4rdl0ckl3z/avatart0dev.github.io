@@ -1,4 +1,5 @@
 import { promises as fs } from 'fs';
+import Image from 'next/image';
 import { Project } from '../../../models/projectModel';
 
 async function getProjectData(id: string) {
@@ -34,7 +35,7 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
                         <p className="text-xl mb-8">{project.description}</p>
                     </div>
                     <div className="text-center">
-                        <img src={project.img} width={500} height={500} alt={project.title} />
+                        <Image src={project.img} width={500} height={500} alt={project.title} />
                     </div>
                     <div className="container mx-auto py-10">
                         {(await project.content).map((content, index) => (
