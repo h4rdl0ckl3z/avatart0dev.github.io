@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs';
 import Image from 'next/image';
 import { Project } from '../../../models/projectModel';
+import logo from '../../../public/logo.jpg';
 
 async function getProjectData(id: string) {
     const file = await fs.readFile(process.cwd() + '/app/project/data.json', 'utf8');
@@ -35,7 +36,7 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
                         <p className="text-xl mb-8">{project.description}</p>
                     </div>
                     <div className="text-center">
-                        <Image src={project.img} width={500} height={500} alt={project.title} />
+                        <Image src={project.img || logo} width={500} height={500} alt={project.title} />
                     </div>
                     <div className="container mx-auto py-10">
                         {(await project.content).map((content, index) => (
