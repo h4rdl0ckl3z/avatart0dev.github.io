@@ -4,24 +4,60 @@
             "id": 0,
             "title": "nextjs-portfolio",
             "img": "https://avatars.githubusercontent.com/u/54482333?s=400&u=c430a54568014a47938386f3aa960d7cb97f9125&v=4",
-            "description": "portfolio",
+            "description": "my portfolio",
             "date": "",
             "link": "https://github.com/h4rdl0ckl3z/portfolio",
             "content": [
-                "test",
-                "test"
+                "design",
+                "nextjs 15 app route"
             ]
         },
         {
             "id": 1,
-            "title": "1",
+            "title": "equipment mangement",
             "img": "https://avatars.githubusercontent.com/u/54482333?s=400&u=c430a54568014a47938386f3aa960d7cb97f9125&v=4",
-            "description": "",
+            "description": "ระบบบริหารครุภัณฑ์",
             "date": "",
-            "link": "",
+            "link": "https://github.com/h4rdl0ckl3z/equipment",
             "content": [
-                "1",
-                "1"
+                "ระบบบริหารครุภัณฑ์",
+                "มหาวิทยาลัยราชภัฏสุราษฎร์ธานี คณะวิทยาศาสตร์และเทคโนโลยี"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "e-GP Module",
+            "img": "https://private-user-images.githubusercontent.com/54482333/361216688-cd9987d5-ada6-4e88-a375-a6e8cd147b33.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4NTk5NTYsIm5iZiI6MTczMjg1OTY1NiwicGF0aCI6Ii81NDQ4MjMzMy8zNjEyMTY2ODgtY2Q5OTg3ZDUtYWRhNi00ZTg4LWEzNzUtYTZlOGNkMTQ3YjMzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI5VDA1NTQxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQwMjk3M2NjMTJjNGY3ZjRhNTMwMjdmY2MxODRiMmNkNDc2MzBiYjZjMTYzZWJlYjZlODNmZGNiMWJhOGQ0MjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.r1ZjLQgKcf_NxE3yMj5npbkU2Tfptj1xNOEqalSfzNg",
+            "description": "e-GP (Thai e-Government Procurement) Module",
+            "date": "",
+            "link": "https://github.com/h4rdl0ckl3z/e-GP_Module",
+            "content": [
+                "Fetch data to json",
+                "Python, JavaScript, PHP"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Minecraft Plugin",
+            "img": "https://avatars.githubusercontent.com/u/54482333?s=400&u=c430a54568014a47938386f3aa960d7cb97f9125&v=4",
+            "description": "minecraft plugin",
+            "date": "",
+            "link": "https://github.com/h4rdl0ckl3z/BKlCore",
+            "content": [
+                "tutorial plguin",
+                "spigot api or papermc"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "DEMO Auto e-GP",
+            "img": "https://avatars.githubusercontent.com/u/54482333?s=400&u=c430a54568014a47938386f3aa960d7cb97f9125&v=4",
+            "description": "auto e-gp firstfirst version",
+            "date": "",
+            "link": "https://github.com/unknownclub/AutoEGP",
+            "content": [
+                "demo auto e-gp",
+                "first version"
             ]
         }
     ]

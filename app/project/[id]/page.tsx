@@ -34,14 +34,14 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
                         <p className="text-xl mb-8">{project.description}</p>
                     </div>
                     <div className="text-center">
-                        <img src={project.img} width={300} height={300} alt={project.title} />
+                        <img src={project.img} width={500} height={500} alt={project.title} />
                     </div>
                     <div className="container mx-auto py-10">
                         {(await project.content).map((content, index) => (
                             <p key={index} className="mb-4 contain-content">{content}</p>
                         ))}
                         <p className="mb-4">
-                            Read more at <a href={project.link} target="_blank">Github</a>
+                            Link at <a href={project.link} className='font-bold' target="_blank">Github</a>
                         </p>
                     </div>
                 </section>
