@@ -8,6 +8,7 @@ const navigation = [
     { name: 'Work', href: '#work', current: false },
     { name: 'Projects', href: '#projects', current: false },
     { name: 'Contact', href: '#contact', current: false },
+    { name: 'Resume', href: 'https://drive.google.com/file/d/1swHOBUHhctpLMTpQUuAtTt0TEfsRmnkD/view?usp=sharing', current: false, target: '_blank' },
 ]
 
 function classNames(...classes: string[]) {
@@ -36,6 +37,7 @@ export default function Navbar() {
                                         key={item.name}
                                         href={item.href}
                                         aria-current={item.current ? 'page' : undefined}
+                                        target={item.target}
                                         className={classNames(
                                             item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                             'rounded-md px-3 py-2 text-sm font-medium',
@@ -58,6 +60,7 @@ export default function Navbar() {
                             as="a"
                             href={item.href}
                             aria-current={item.current ? 'page' : undefined}
+                            target={item.target}
                             className={classNames(
                                 item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                 'block rounded-md px-3 py-2 text-base font-medium',
