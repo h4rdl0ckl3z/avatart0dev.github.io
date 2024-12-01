@@ -43,7 +43,7 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
                             <p key={index} className="mb-4 contain-content">{content}</p>
                         ))}
                         <p className="mb-4">
-                            Link at <a href={project.link} className='font-bold' target="_blank">Github</a>
+                            at <a href={project.link} className='font-bold' target="_blank">Link</a>
                         </p>
                     </div>
                 </section>
